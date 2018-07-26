@@ -69,7 +69,7 @@ module.exports = {
           code: 'eu',
           file: 'eu.js',
           icon: '/pais-vasco.png',
-          name: 'Euskara'
+          name: 'Euskera'
         },
         {
           code: 'es',
