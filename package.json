@@ -1,0 +1,25 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "ametsak website",
+  "author": "Julen",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "ajv": "^6.5.2",
+    "aos": "^2.3.3",
+    "firebase": "5.3.0",
+    "nuxt": "^1.0.0",
+    "nuxt-i18n": "^4.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "fsevents": "^1.2.4"
+  }
+}
