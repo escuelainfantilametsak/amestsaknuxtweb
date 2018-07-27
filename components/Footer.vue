@@ -44,7 +44,7 @@
                 <a href="#!">Equipo</a>
               </li>
               <li>
-                <a href="#!">Convenios</a>
+                 <nuxt-link :to="localePath('convenios')">Convenios</nuxt-link>
               </li>
             </ul>
 
@@ -149,7 +149,7 @@ footer a:link
     text-decoration:none; 
 } 
 
-footer h6{
+h6{
   font-family: 'Pacifico', cursive;
   color: #633287;
 }

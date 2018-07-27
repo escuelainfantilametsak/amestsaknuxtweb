@@ -16,6 +16,7 @@
   justify-content: center; 
   align-items: center;
   text-align: center;
+
 }
 
 .navy-line {
@@ -23,4 +24,13 @@
     height: 1px;
     margin: 60px auto 0;
     border-bottom: 2px solid #8fbd43;
+}
+
+.subtitle
+{
+  font-weight: 300;
+  font-size: 42px;
+  color: #ffb300;
+  word-spacing: 5px;
+  padding-bottom: 15px;
 }

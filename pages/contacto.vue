@@ -56,7 +56,7 @@
                         <!--<span class="fa fa-home"></span> Calle Llano 56 Bajo<br>-->
                         <span class="fa fa-phone-square"></span> 94 608 63 94<br>
                         <span class="fa fa-mobile"></span> 94 608 63 94<br>
-                        <span class="fa fa-facebook-square" style="color: #3385ff"></span> <a href="https://www.facebook.com/escuela.ametsak"> Ametsak Facebook </a> <br>
+                        <span class="fab fa-facebook-f" style="color: #3385ff"></span> <a href="https://www.facebook.com/escuela.ametsak"> Ametsak Facebook </a> <br>
                     </p>
                     <ul class="list-inline social-icon">
                         <li><a href="http://www.escuelainfantilametsak.com" target="blank"><i class="fa fa-link"></i></a>

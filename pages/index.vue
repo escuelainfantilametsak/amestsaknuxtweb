@@ -14,9 +14,9 @@
         <p>El principal objetivo de las educadoras es el bienestar de los niños,por ello, haremos que los más pequeños se sientan seguros, queridos y aceptados dando mayor importancia al contacto afectivo para que desarrollen todo su potencial</p>
         <p>El centro se apoya en la metodología de gleen Doman y tambien ofrece servicios de estimulacion temprara a nivel motor sensorial cognitivo y musical</p>
         <ul class="fa-ul">
-              	<li><span class="icon"><i class="fas fa-angle-right"></i></span> Identidad y Autonomía</li>
-              	<li><span class="icon"><i class="fas fa-angle-right"></i></span> Conocimiento del medio social y físico</li>
-              	<li><span class="icon"><i class="fas fa-angle-right"></i></span> Comunicación y representación</li>
+              	<li><span class="icon"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> Identidad y Autonomía</li>
+              	<li><span class="icon"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> Conocimiento del medio social y físico</li>
+              	<li><span class="icon"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> Comunicación y representación</li>
               	
         </ul>
         <!-- <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
@@ -52,14 +52,7 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
 }
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #ffb300;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+
 .links
 {
   padding-top: 15px;
