@@ -1,3 +1,5 @@
 export default {
-    welcome: 'Kaixo'
+    welcome: 'Kaixo',
+    titleContacto: 'Contacto',
+    subContacto:'Matriculas abiertas 17/18'
   }

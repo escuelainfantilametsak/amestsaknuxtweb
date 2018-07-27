@@ -39,21 +39,9 @@ export default {
 </script>
 
 <style>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
- .navy-line {
-    width: 60px;
-    height: 1px;
-    margin: 60px auto 0;
-    border-bottom: 2px solid #8fbd43;
-}
+
+
 
 .title
 {

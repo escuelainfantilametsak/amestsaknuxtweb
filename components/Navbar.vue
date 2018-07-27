@@ -13,19 +13,15 @@
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       <!--<h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>-->
       <img class="my-0 mr-md-auto font-weight-normal" src="~/assets/logo.png" alt="Bulma">
-      <nav class="nav nav-masthead justify-content-center">       
-       
+      <nav class="nav nav-masthead justify-content-center">
             <nuxt-link class="nav-link" :to="localePath('index')">Inicio</nuxt-link>
             <nuxt-link class="nav-link" :to="localePath('contacto')">Contacto</nuxt-link>
             <nuxt-link class="nav-link" :to="'/equipo'">Equipo</nuxt-link>
-            <a class="nav-link" href="#">Enterprise</a>
-            <a class="nav-link" href="#">Support</a>
-            <a class="nav-link" href="#">Pricing</a>
-       
       </nav>
       
-      <a class="btn btn-outline-primary" href="#">Sign up</a>
       <LangSwitcher />
+      <a class="btn btnlogin" href="#">Login</a>
+      
     </div>
 
 
@@ -79,6 +75,17 @@ html
         border-bottom: 6px solid #974eca;
 }
 
+.btnlogin {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
 
+.btnlogin:hover {
+    color: #fff;
+    background-color: #6a1b9a;
+    border-color: #6a1b9a;
+}
 
 </style>
