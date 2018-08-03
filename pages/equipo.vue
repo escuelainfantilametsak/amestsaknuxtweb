@@ -1,5 +1,23 @@
 <template>
-    	<section id="cd-timeline" class="cd-container">
+
+<div>
+
+        <div class="container">
+            <div class="navy-line"></div>
+            <h1 class="h1">        
+                  {{ $t('titleEquipo') }}       
+                </h1>
+                <!-- <h1 class="title">
+                  {{ $t('titleContacto') }}
+                </h1> -->
+                <h2 class="subtitle">
+                {{ $t('subEquipo') }}
+                </h2>
+
+        </div> 
+
+<section id="cd-timeline" class="cd-container">
+    
 		<div class="cd-timeline-block">
       <div data-aos="fade-right">
           <div class="cd-timeline-img cd-picture">
@@ -7,24 +25,24 @@
 			    </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
-            <h2>Title of section 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+            <h2>0-1 años</h2>
+            <p>Actividades psicomotrices. control del equilibrio y la coordinacion, control postural y del movimiento</p>
             <a href="#0" class="cd-read-more">Read more</a>
-            <span class="cd-date">Jan 14</span>
+            <span class="cd-date">Irantzu Espina</span>
           </div> <!-- cd-timeline-content -->
       </div>
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-movie">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
+				<img src="~/assets/cris.png" class="img-circle" alt="Movie">
 			</div> <!-- cd-timeline-img -->
       <div data-aos="fade-in">
         <div class="cd-timeline-content">
-          <h2>Title of section 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+          <h2>0-1 años</h2>
+          <p>Actividades psicomotrices. control del equilibrio y la coordinacion, control postural y del movimiento</p>
           <a href="#0" class="cd-read-more">Read more</a>
-          <span class="cd-date">Jan 18</span>
+          <span class="cd-date">Cristina Yanguas</span>
         </div> <!-- cd-timeline-content -->
       </div>
 		</div> <!-- cd-timeline-block -->
@@ -81,7 +99,15 @@
         </div> <!-- cd-timeline-content -->
       </div>
       </div> <!-- cd-timeline-block -->    
-	</section> <!-- cd-timeline -->
+	</section>
+  
+</div>
+
+  
+
+  
+  
+   <!-- cd-timeline -->
 </template>
 
 
@@ -192,14 +218,17 @@ Main components
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
-  display: block;
+  /* display: block;
   width: 24px;
   height: 24px;
   position: relative;
   left: 50%;
   top: 50%;
   margin-left: -12px;
-  margin-top: -12px;
+  margin-top: -12px; */
+  margin-left: 0px;
+  margin-top: -2px;
+  width: 100%;
 }
 .cd-timeline-img.cd-picture {
   background: #75ce66;

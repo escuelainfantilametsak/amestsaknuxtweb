@@ -23,7 +23,7 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro|Pacifico|Neucha' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro|Pacifico|Neucha|Fredoka+One' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' },    
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.1.1/css/all.css' }
       
@@ -50,9 +50,13 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {
-        src:"~/plugins/aos", ssr:false        
-    }
+    
+    {src:'~/plugins/aos.js', ssr:false},
+    {src:'~/plugins/vue2googlemaps.js', ssr:false},
+    '~/plugins/fireauth.js'
+    // "~/plugins/vue2googlemaps"
+      
+    
   ],
 
   /*
@@ -81,6 +85,9 @@ module.exports = {
       lazy: true,
       langDir: 'lang/'
       
+    }],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-122941376-1'
     }]
   ],
   /*
@@ -94,7 +101,9 @@ module.exports = {
   //   base: '/nuxtamestsak/'
   // },
 
-
+  router: {
+    middleware: 'router-auth'
+  },
 
   /*
   ** Build configuration

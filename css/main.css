@@ -16,6 +16,7 @@
   justify-content: center; 
   align-items: center;
   text-align: center;
+  margin-bottom: 10px
 
 }
 
@@ -33,4 +34,53 @@
   color: #ffb300;
   word-spacing: 5px;
   padding-bottom: 15px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.img-small {
+    height: 88px;
+    width: 88px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .btnlogin {
+    color: #ffffff ;
+    background-color: #6a1b9a;
+    background-image: none;
+    border-color: #6a1b9a;
+}
+
+.btnlogin:hover {
+    color: #6a1b9a;;
+    background-color: #9cfc97;
+    border-color:#9cfc97;
 }

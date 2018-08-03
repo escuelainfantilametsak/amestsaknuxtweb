@@ -18,7 +18,7 @@
          <h2 class="subtitle">
          {{ $t('subContacto') }}
       </h2>
-     <div class="row">
+     <div class="row justify-content-center">
     
       
 
@@ -71,17 +71,25 @@
      </div>
       
   </div>
-
+   <div class="container">
+<div class="alert alert-light center
+" role="alert">
+  <h3>A 3 minutos de la salida de metro llano y a 5 min. del hospital de Cruces</h3>
+</div>
+</div>
+<mapagoogle/>
 </section>
 
 </template>
 
 <script>
 import Logo1 from '~/components/LogoSeccion1.vue'
+import mapagoogle from '~/components/map.vue'
 
 export default {
   components: {
-    Logo1
+    Logo1,
+    mapagoogle
   }
 }
 

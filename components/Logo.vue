@@ -1,6 +1,8 @@
 <template>
 
+
   <img src="~/assets/logo700.png" class="img-fluid animated fadeIn" alt="logo">
+ 
   <!-- <div class="VueToNuxtLogo">
     <div class="Triangle Triangle--two"></div>
     <div class="Triangle Triangle--one"></div>
