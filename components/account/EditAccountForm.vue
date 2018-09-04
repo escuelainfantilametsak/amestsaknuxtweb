@@ -28,19 +28,17 @@
 
 <script>
 import firebase from '@/services/fireinit.js'
+import { mapState } from 'vuex'
 //import EditAccountForm from '~/components/account/EditAccountForm.vue'
 export default {
   // middleware: 'authenticated', // checking if auth'd with firebase kinda sucks as the middleware is triggered before firebase is ready
   // components: {
   //   EditAccountForm
   // },
-   computed:     
-    {      
-    user () {
-            return this.$store.getters.activeUser
-        },
-       
-    },
+    computed: mapState([
+      'user',
+      'account'
+    ]),
     data () {
       return {
         newData: {
@@ -53,8 +51,8 @@ export default {
       }
     },
     mounted () {
-      this.newData.displayName = this.user.displayName
-      this.newData.image = this.user.image
+      this.newData.displayName = this.account.displayName
+      this.newData.image = this.account.image
     },
     methods: {
     resetFormMessages () {
@@ -81,9 +79,15 @@ export default {
       const ref = firebase.storage().ref(`accounts/profile/${this.user.uid}`)
       ref.put(file).then((snapshot) => {
         // return this.$store.dispatch('userUpdateImage', snapshot.ref.getDownloadURL())
+            
       })
         .then(() => {
           this.formSuccess = 'Successfully uploaded a new profile image'
+
+        ref.getDownloadURL().then(function(downloadURL) {
+              this.$store.dispatch('userUpdateImage', downloadURL)
+              console.log('File available at', downloadURL);
+        });
           // reset the form input
           this.$refs.fileInput.value = null
         })

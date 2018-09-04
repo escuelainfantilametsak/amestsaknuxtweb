@@ -1,6 +1,8 @@
 <template>
 <div class="container">
-
+<div class="col-md-12">    
+            <img src="~/assets/workflow2.png" class="img-fluid animated fadeIn" alt="logo">         
+        </div>
 <div class="navy-line"></div>
             <h1 class="h1">        
                   {{ $t('titleSolicitud') }}       
@@ -11,6 +13,7 @@
                 <h2 class="subtitle">
                 {{ $t('subSolicitud') }}
                 </h2>
+        
 
 <nav aria-label="breadcrumb" class="mb-5">
   <ol class="breadcrumb">
@@ -73,18 +76,6 @@
 }
 .breadcrumb-item {
     color: #6c757d;
-}
-.listcustom {
-       margin-bottom: 15px;
-}
-
-.linkmapacontacto:hover{
-    color: #00e676;
-    font-weight: bold;
-}
-
-.linkmapacontacto{
-    color: #6a1b9a;
 }
 
 .breadcrumb {

@@ -28,7 +28,7 @@
             <h5 class="text-uppercase">Links</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#!">Trabaja con Nosotros</a>
+                  <nuxt-link :to="localePath('trabaja-con-nosotros')">Trabaja con Nosotros</nuxt-link>  
               </li>
               <li>
                 <nuxt-link :to="localePath('solicitudmatricula')">Solicitar matricula</nuxt-link>                

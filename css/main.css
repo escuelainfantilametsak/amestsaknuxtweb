@@ -84,3 +84,39 @@
     background-color: #9cfc97;
     border-color:#9cfc97;
 }
+.resaltar{    
+    color: #6a1b9a;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.listcustom {
+  margin-bottom: 15px;
+}
+
+.linkmapacontacto:hover{
+color: #00e676;
+font-weight: bold;
+}
+
+.linkmapacontacto{
+color: #6a1b9a;
+
+}
+
+.linkCalendario:hover{
+  color: #00e676;
+  font-weight: bold;
+  }
+  
+.linkCalendario{
+  color: #6a1b9a;
+  margin-left: 10px;
+  }
+
+.fredaFont{
+  font-family: 'Fredoka One', cursive;
+}
+  
+

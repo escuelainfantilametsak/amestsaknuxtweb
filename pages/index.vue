@@ -10,16 +10,21 @@
         {{ $t('welcome') }}
       </h2>
       <div class="links">
-        <p>La Escuela Infantil AMETSAK es un centro educativo y asistencial para niños de 0 a 3 años con instalacioness autorizadas por el Gobierno Vasco.</p>
+        <p>La Escuela Infantil <span class="resaltar" >AMETSAK</span> es un centro educativo y asistencial para niños de 0 a 3 años con instalacioness autorizadas por el Gobierno Vasco.</p>
         <p>El principal objetivo de las educadoras es el bienestar de los niños,por ello, haremos que los más pequeños se sientan seguros, queridos y aceptados dando mayor importancia al contacto afectivo para que desarrollen todo su potencial</p>
-        <p>El centro se apoya en la metodología de gleen Doman y tambien ofrece servicios de estimulacion temprara a nivel motor sensorial cognitivo y musical</p>
+        <p>El centro se apoya en la metodología de <span class="resaltar">gleen Doman</span> y tambien ofrece servicios de estimulacion temprara a nivel motor sensorial cognitivo y musical</p>
         <ul class="fa-ul">
                 
-              	<li><span class="icon"><i class="fas fa-quote-right fa-2x" style="color:#643387"></i></span> Identidad y Autonomía</li>
-              	<li><span class="icon"><i class="" style="color:#643387"></i></span> Conocimiento del medio social y físico</li>
-              	<li><span class="icon"><i class="" style="color:#643387"></i></span> Comunicación y representación</li>
+              	<li><i class="fa-li fas fa-quote-right fa-2x" style="color:#643387"></i><span>Identidad y Autonomía</span> </li>
+                <li><i class="" ></i><span>Conocimiento del medio social y físico</span> </li>
+                <li><i class="" ></i><span>Comunicación y representación</span> </li>
+              	
               	
         </ul>
+        <p>
+          En nuestra escuela, mediante todos los servicios ofertados queremos lograr un servicio completo que cubra todas las necesidades de nuestros pequeños,
+          y que abarque todos los aspectos importantes en la educacion de estas edades.        
+        </p>
         <!-- <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a> -->
       </div>

@@ -7,11 +7,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Escuela Infantil Ametsak',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: 'Escuela infantil - Haurreskola de Barakaldo' },
+      { hid: 'keywords', name: 'keywords', content: 'haurreskola, guarderia barakaldo, guarderia cruces, guarderia, escuela infantil' }
     ],  
     script: [
       { src: 'https://code.jquery.com/jquery-3.2.1.slim.min.js' },

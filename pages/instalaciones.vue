@@ -37,7 +37,9 @@
 
 
   
-  <h1 class="my-4 text-center text-lg-left">Fotos</h1>
+     <h2 class="subtitle">
+          {{ $t('subFotos') }}
+      </h2>
       <div class="row text-center text-lg-left">
 
         <div class="col-lg-4 col-md-6 col-xs-4">
