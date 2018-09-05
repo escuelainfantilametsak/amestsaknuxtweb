@@ -12,7 +12,7 @@
 
 
 <section id="skills" class="container" style="margin-top: 0px;">
-<div class="container col-11" id="i18_skills">
+<div class="container col-lg-10" id="i18_skills">
     <div class="row">
         <div class="col-lg-12 text-center">
           
@@ -61,8 +61,8 @@
             </div>
             <div class="col-9" >
                 <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                    7:30 - 19:00
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                    <span class="resaltarWhite">7:30 - 19:00</span>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@
             </div>
             <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                    7:30 - 19:00
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                    <span class="resaltarWhite">7:30 - 19:00</span>
                     </div>
                 </div>
             </div>
@@ -88,8 +88,8 @@
             </div>
             <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                     7:30 - 19:00
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                    <span class="resaltarWhite">7:30 - 19:00</span>
                     </div>
                 </div>
             </div>
@@ -101,8 +101,8 @@
             </div>
             <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
                 <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                     7:30 - 19:00
+                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                     <span class="resaltarWhite">7:30 - 19:00</span>
                     </div>
                 </div>
             </div>
@@ -114,8 +114,8 @@
             </div>
             <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
                 <div class="progress progress-bar-default">
-                    <div style="width: 83%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                    7:30 - 17:30
+                    <div style="width: 83%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                    <span class="resaltarWhite">7:30 - 17:30</span>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
 </section>
 
 <section id="projects" class="container" style="margin-top: 0px;">
-    <div class="container" id="i18_projects">
+    <div class="container col-lg-12" id="i18_projects">
     <div class="row m-b-lg">
         <div class="col-12 text-center">
              <h2 class="subtitle">

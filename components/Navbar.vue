@@ -16,12 +16,12 @@
         <img class="my-0 mr-md-auto font-weight-normal" src="~/assets/logo.png" alt="Bulma">
         
         <nav class="nav nav-masthead justify-content-center">
-                <nuxt-link class="nav-link" :to="localePath('index')">Inicio</nuxt-link>
-                <nuxt-link class="nav-link" :to="localePath('contacto')">Contacto</nuxt-link>
-                <nuxt-link class="nav-link" :to="localePath('equipo')">Equipo</nuxt-link>
-                <nuxt-link class="nav-link" :to="localePath('servicios')">Servicios</nuxt-link>
-                <nuxt-link class="nav-link" :to="localePath('instalaciones')">Instalaciones</nuxt-link>
-                <nuxt-link class="nav-link" :to="localePath('login')">Login</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('index')"> {{ $t('navIni') }}</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('contacto')"> {{ $t('navCon') }}</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('equipo')"> {{ $t('navEqu') }}</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('servicios')"> {{ $t('navSer') }}</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('instalaciones')"> {{ $t('navIns') }}</nuxt-link>
+                <nuxt-link class="nav-link" :to="localePath('login')"> {{ $t('navLog') }}</nuxt-link>
         </nav>
         
         <LangSwitcher />

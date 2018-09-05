@@ -17,29 +17,29 @@
 
 <nav aria-label="breadcrumb" class="mb-5">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">Concertar Visita</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ $t('solMatTex1') }}</li>
   </ol>
-  <p style="margin-bottom: 25px; text-align: center; ">LLÁMANOS  (<a style="color: #8fbd43;" href="tel://946086394">946 086 394</a>) </p> 
+  <p style="margin-bottom: 25px; text-align: center; "> {{ $t('solMatTex2') }}  (<a class="resaltarLink" href="tel://946086394">946 086 394</a>) </p> 
     <nuxt-link class="linkmapacontacto" :to="localePath('contacto')"><i class="fas fa-map-marked-alt fa-2x"></i></nuxt-link> 
 
 </nav>
 
 <nav aria-label="breadcrumb" class="mb-5">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item">Concertar Visita</li>
-    <li class="breadcrumb-item active" aria-current="page">Documentacion</li>
+    <li class="breadcrumb-item">{{ $t('solMatTex1') }}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ $t('solMatTex3') }}</li>
   </ol>
  <ul class="list-group listcustom">
   <li class="list-group-item d-flex justify-content-between align-items-center">
-    Fotocopia del libro de familia
+    {{ $t('solMatTex8') }}
    <i class="fas fa-print fa-2x"></i>
   </li>
    <li class="list-group-item d-flex justify-content-between align-items-center">
-    Fotocopia del número de cuenta
+    {{ $t('solMatTex9') }}
    <i class="fas fa-print fa-2x"></i>
   </li>
   <li class="list-group-item d-flex justify-content-between align-items-center">
-    Rellenar Hoja matriculación
+    {{ $t('solMatTex10') }}
     <a href="SOLICITUD_DE_MATRICULAS.pdf" class="linkmapacontacto"><i class="far fa-file-pdf fa-2x"></i></a>
     
   </li> 
@@ -48,18 +48,21 @@
 
 <nav aria-label="breadcrumb" class="mb-5">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item">Concertar Visita</li>
-    <li class="breadcrumb-item">Documentacion</li>
-    <li class="breadcrumb-item active" aria-current="page">Listo</li>
+    <li class="breadcrumb-item">{{ $t('solMatTex1') }}</li>
+    <li class="breadcrumb-item">{{ $t('solMatTex3') }}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ $t('solMatTex4') }}</li>
   </ol>
   <div class="card text-white bg-dark mx-auto" style="max-width: 18rem;">
   
   <div class="card-body">
     
-    <p>Recibe tu pack de bienvenida!!</p>
+    <p>{{ $t('solMatTex5') }}</p>
     <!-- <span class="badge badge-secondary">New</span> -->
     <i class="fas fa-shopping-bag"></i> & <i class="fas fa-book"></i>
   </div>
+  <div class="card-footer bg-white  border-verdeAmetsak"> <a href="Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('solMatTex6') }}  <i class="far fa-file-pdf fa-2x"></i></a></div>
+    <div class="card-footer bg-white border-verdeAmetsak"><nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('solMatTex7') }}    <i class="fas fa-clipboard-list fa-2x"></i></nuxt-link></div>
+    
 </div>
 </nav>
 </div>
@@ -80,5 +83,20 @@
 
 .breadcrumb {
        margin-bottom: 20px;
+}
+
+.linkSolitudMatricula {
+    color: #6a1b9a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linkSolitudMatricula:hover{
+    color: #00e676;
+    font-weight: bold;
+    text-decoration: none;
+}
+.border-verdeAmetsak {
+    border-color: #343a40!important;
 }
 </style>

@@ -18,20 +18,16 @@
 
       <div class="row col-12">
           <p class="text-justify">
-              El centro cuenta con mas de 400 metros cuadrados de nuevas y agradables instalaciones, por lo que
-              los niños tienen un gran espacio para sus cuidados y juegos, y para mantenerlos separadospor edades en amplia aulas.
+               {{ $t('insText1') }}
           </p>
            <p class="text-justify">
-             Cuenta con todas las medidas de seguridad necesarias para que los pequeños disfruten jugando, aprendiendo
-             y se sientan seguros en todo momento. Las instalaciones cumplen con las exigencias del GOBIERNO VASCO y el ayuntamiento de Barakaldo. 
-             Están adecuadas a las edades de los pequeños y normativas vigentes.
+               {{ $t('insText2') }}
           </p>
            <p class="text-justify">
-             Por estas razones las intalaciones contarán con un aula para cada grupo y está diferenciada su zona de aseo, descanso y juego correspondiente.
+               {{ $t('insText3') }}
           </p>
           <p class="text-justify">
-             Las aulas estan intercomunicadas entre ellas visualmente mediante cristaleras y tambien mediante porteros automaticos para la entrada 
-             y salida de los peques.
+               {{ $t('insText4') }}
           </p>
       </div>
 

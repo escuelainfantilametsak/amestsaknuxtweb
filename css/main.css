@@ -91,6 +91,34 @@
     margin-right: 5px;
 }
 
+.resaltarVerde{    
+  color: #9cfc97;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.resaltarWhite{    
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.resaltarLink{    
+  color: #6a1b9a;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.resaltarLink:hover{    
+  color: #00e676;
+  font-family: 'Fredoka One', cursive;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
 .listcustom {
   margin-bottom: 15px;
 }
@@ -117,6 +145,30 @@ color: #6a1b9a;
 
 .fredaFont{
   font-family: 'Fredoka One', cursive;
+}
+
+.card-pricing.popular {
+  z-index: 1;
+  border: 3px solid #9cfc97;
+}
+.card-pricing .list-unstyled li {
+  padding: .5rem 0;
+  color: #6c757d;
+}
+.bg-ametsakVerde{
+  background-color:#9cfc97;
+}
+
+.card-body a:hover{
+  color: #007bff;
+  font-weight: bold;
+}
+.card-body a:link {
+  text-decoration: none;
+}
+
+.morado{
+  background-color:  #633287;
 }
   
 

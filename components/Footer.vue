@@ -39,13 +39,16 @@
               <li>
                  <nuxt-link :to="localePath('convenios')">Convenios</nuxt-link>
               </li>
+               <li>
+                 <nuxt-link :to="localePath('normas')">Normas</nuxt-link>
+              </li>
             </ul>
           </div>
           <!-- Grid column -->
           <!-- Grid column -->
           <div class="col-md-3 mb-md-0 mb-3">
             <!-- contacto -->
-            <h5 class="text-uppercase">Contacto</h5>
+            <h5 class="text-uppercase">{{ $t('titleContacto') }} </h5>
             <ul class="list-unstyled">
               <li>
                 <a href="https://goo.gl/maps/C7TFkoKaj7J2" target="_blank"><i class="fas fa-map-marker-alt"></i> Llano 56 Bajo, BARAKALDO</a>
