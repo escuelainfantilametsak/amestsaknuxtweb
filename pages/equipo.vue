@@ -53,10 +53,10 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Title of section 3</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+				<h2>1-2 años</h2>
+				<p>Participacion con los niños en juegos de asociación, como en los que debe clasificar figuras por su forma y hacer rompecabezas sencillos</p>
 				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 24</span>
+				<span class="cd-date">Leire Espina</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
@@ -66,10 +66,10 @@
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
-				<h2>Title of section 4</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<h2>1-2 años</h2>
+				<p>En esta etapa, los niños pequeños mostrarán mayor independencia; comenzarán a tener conductas desafiantes; se reconocerán en las fotos o en el espejo e imitarán los comportamientos de los demás, especialmente de los adultos y niños mayores</p>
 				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Feb 14</span>
+				<span class="cd-date">Nahikari</span>
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 

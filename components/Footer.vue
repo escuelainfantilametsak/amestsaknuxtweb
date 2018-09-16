@@ -54,7 +54,7 @@
                 <a href="https://goo.gl/maps/C7TFkoKaj7J2" target="_blank"><i class="fas fa-map-marker-alt"></i> Llano 56 Bajo, BARAKALDO</a>
               </li>
               <li>
-                <a href="#!"><i class="fas fa-phone"></i> 94 608 63 94</a>
+                <a href="tel:946086394"><i class="fas fa-phone"></i> 94 608 63 94</a>
               </li>
               <li>
                 <a href="#!"><i class="fab fa-facebook-f"></i> Ametsak Facebook</a>

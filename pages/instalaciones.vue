@@ -38,32 +38,32 @@
       </h2>
       <div class="row text-center text-lg-left">
 
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/entrada.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde4.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde7.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde9.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde12.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
           <a href="#" class="d-block mb-4 h-100">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde15.jpg" alt="">
           </a>

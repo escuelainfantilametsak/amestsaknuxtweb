@@ -28,9 +28,9 @@
     
         
             <p class="text-justify">
-                <span >Abierto de </span>
-                <span class="resaltar" >LUNES a VIERNES</span>                
-                <span > excepto festivos nacionales y los pertenecientes a la comunidad autonoma, el horario de Ametsak pretende adaptarse a todas la necesidades de los aitas
+                <span >{{ $t('serviciosTex1') }}</span>
+                <span class="resaltar" >{{ $t('serviciosTex2') }}</span>                
+                <span > {{ $t('serviciosTex3') }}
                 </span>
             </p>
             
@@ -41,7 +41,7 @@
 
                 <ul class="list-group listcustom mx-auto">    
                         <li class="list-group-item d-flex justify-content-between align-items-center fredaFont">
-                            Calendario Escolar
+                            {{ $t('serviciosTex4') }}
                             <a href="Calendario2018_19.pdf" class="linkCalendario"><i class="far fa-file-pdf fa-2x"></i></a>
                 
                         </li> 
@@ -52,74 +52,79 @@
      
    
      <div class="row">
-       <p class="text-justify">Por ello el centro permanecera abierto de   </p> <span class="resaltar" > 7:30 a 19:15 </span>
+       <p class="text-justify">{{ $t('serviciosTex5') }}</p> <span class="resaltar" > 7:30 a 19:15 </span>
     </div>
 
-    <div class="row">
-            <div class="col-3" >
-                <p>Lunes</p>
-            </div>
-            <div class="col-9" >
-                <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
-                    <span class="resaltarWhite">7:30 - 19:00</span>
+    <div class="col-12">
+
+            <div class="row">
+                <div class="col-3" >
+                    <p>{{ $t('serviciosTextLunes') }}</p>
+                </div>
+                <div class="col-9" >
+                    <div class="progress progress-bar-default">
+                        <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                        <span class="resaltarWhite">7:30 - 19:00</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-    <div class="row">
-            <div class="col-3" style="visibility: visible; animation-name: fadeInRight;">
-                <p>Martes</p>
-            </div>
-            <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
-                <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
-                    <span class="resaltarWhite">7:30 - 19:00</span>
+            <div class="row">
+                    <div class="col-3" style="visibility: visible; animation-name: fadeInRight;">
+                        <p>{{ $t('serviciosTextMartes') }}</p>
+                    </div>
+                    <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                            <span class="resaltarWhite">7:30 - 19:00</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-    <div class="row">
-            <div class="col-3" style="visibility: visible; animation-name: fadeInLeft;">
-                <p>Miercoles</p>
-            </div>
-            <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
-                <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
-                    <span class="resaltarWhite">7:30 - 19:00</span>
+            <div class="row">
+                    <div class="col-3" style="visibility: visible; animation-name: fadeInLeft;">
+                        <p>{{ $t('serviciosTextMiercoles') }}</p>
+                    </div>
+                    <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                            <span class="resaltarWhite">7:30 - 19:00</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3" style="visibility: visible; animation-name: fadeInRight;">
-                <p>Jueves</p>
-            </div>
-            <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
-                <div class="progress progress-bar-default">
-                    <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
-                     <span class="resaltarWhite">7:30 - 19:00</span>
+                <div class="row">
+                    <div class="col-3" style="visibility: visible; animation-name: fadeInRight;">
+                        <p>{{ $t('serviciosTextJueves') }}</p>
+                    </div>
+                    <div class="col-9" style="visibility: visible; animation-name: fadeInLeft;">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 95%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                            <span class="resaltarWhite">7:30 - 19:00</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-3" style="visibility: visible; animation-name: fadeInLeft;">
-                <p>Viernes</p>
-            </div>
-            <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
-                <div class="progress progress-bar-default">
-                    <div style="width: 83%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
-                    <span class="resaltarWhite">7:30 - 17:30</span>
+                <div class="row">
+                    <div class="col-3" style="visibility: visible; animation-name: fadeInLeft;">
+                        <p>{{ $t('serviciosTextViernes') }}</p>
+                    </div>
+                    <div class="col-9" style="visibility: visible; animation-name: fadeInRight;">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 83%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar morado">
+                            <span class="resaltarWhite">7:30 - 17:30</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+    </div>
+
+    
 
         
 
@@ -147,8 +152,8 @@
             
               <div class="team-member">
                   <img src="~/assets/language.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><i class=""></i><a href="#projects"><span class="navy">Trilingue</span></a></h4>
-                  <p class="text-justify"><span data-i18n="projects.saplatform">Apostamos por un modelo educativo con nuestras dos lenguas, euskara y castellano, utilizando la primera como lengua vehicular y también introducimos a nuestros txikis en el conocimiento y uso del inglés.</span></p>
+                  <h4><i class=""></i><a href="#projects"><span class="navy">{{ $t('serviciosTex6') }}</span></a></h4>
+                  <p class="text-justify"><span data-i18n="projects.saplatform">{{ $t('serviciosTex7') }}</span></p>
                   
               </div>
           </div>
@@ -159,8 +164,8 @@
             
               <div class="team-member">
                   <img src="~/assets/becas.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><i class=""></i><a href="#projects"><span class="navy">Becas y subvenciones</span></a></h4>
-                  <p class="text-justify"><span data-i18n="projects.jalpc">Todas nuestras plazas están subvencionadas por el gobierno vasco por lo que ofrecemos unas tarifas más que interesantes. También podréis beneficiaros de las becas y subvenciones que ofrecen cada año. Nosotros nos encargamos de todos los tramites para que no tengáis que preocuparos de nada.</span></p>
+                  <h4><i class=""></i><a href="#projects"><span class="navy">{{ $t('serviciosTex8') }}</span></a></h4>
+                  <p class="text-justify"><span data-i18n="projects.jalpc">{{ $t('serviciosTex9') }}</span></p>
                   
               </div>
           </div>
@@ -171,8 +176,8 @@
             
               <div class="team-member">
                   <img src="~/assets/logotipoGV_2.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><i class=""></i><a href="#projects"><span class="navy">Centro Autorizado Gobierno Vasco</span></a></h4>
-                  <p class="text-justify"><span data-i18n="projects.angularjs">Centro autorizado y homologado, ya que cumple todas las normativas marcadas por el Gobierno Vasco. Nuestro proyecto abarca desde los 4 meses hasta los 3 años y en total disponemos de 52 matrículas repartidas en cuatro clases: bebés, 1 año A, 1 año B y 2 años.</span></p>
+                  <h4><i class=""></i><a href="#projects"><span class="navy">{{ $t('serviciosTex10') }}</span></a></h4>
+                  <p class="text-justify"><span data-i18n="projects.angularjs">{{ $t('serviciosTex11') }}</span></p>
                   
               </div>
           </div>
@@ -182,8 +187,8 @@
             
               <div class="team-member">
                   <img src="~/assets/blocks.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><i class=""></i><a href="#projects"><span class="navy">Servicio Guarderia</span></a></h4>
-                  <p class="text-justify"><span data-i18n="projects.rsser">Ofrecemos un servicio de horario ampliado para facilitar la conciliación laboral y familiar. Por la mañana de 7:30 a 9:00, y por la tarde partir de las 17:30 hasta las 19:00 con un carácter lúdico y recreativo.</span></p>
+                  <h4><i class=""></i><a href="#projects"><span class="navy">{{ $t('serviciosTex12') }}</span></a></h4>
+                  <p class="text-justify"><span data-i18n="projects.rsser">{{ $t('serviciosTex13') }}</span></p>
                   
               </div>
           </div>

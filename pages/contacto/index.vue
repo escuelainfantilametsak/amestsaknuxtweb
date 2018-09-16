@@ -40,7 +40,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="hidden" name="_next" value="https://www.escuelainfantilametsak.com/contacto/gracias" />                               
+                                    <input type="hidden" name="_next" value="https://ametsakweb.firebaseapp.com/contacto/gracias" />                               
                                 </div>                                
                                 <button class="btn btn-primary pull-right button pageclip-form__submit" type="submit">
                                     <span>Enviar</span>

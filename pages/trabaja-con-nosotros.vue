@@ -18,12 +18,12 @@
       
 
         <div class="col-md-8">
-            <p class="text-justify">Si eres una persona  con ganas de trabajar, te gustan los niños y quieres formar parte de nuestro proyecto puedes enviarnos tu curriculum vitae en el siguiente enlance <a href="mailto:hola@escuelainfantilametsak.com?subject=CV: ">CV Ametsak</a> </p>            
-            <p class="text-justify">Cuentanos un poco sobre tí, si conoces a alguien que halla trabajado  con nosotros y la disponibilidad que tienes.</p>
-            <p class="text-justify">Recuerda que para trabajar en nuestra escuela como educadora: </p>
+            <p class="text-justify">{{ $t('trabajaMatTex1') }} <a href="mailto:hola@escuelainfantilametsak.com?subject=CV: ">CV Ametsak</a> </p>            
+            <p class="text-justify">{{ $t('trabajaMatTex2') }}</p>
+            <p class="text-justify">{{ $t('trabajaMatTex3') }}</p>
             <ul class="fa-ul text-justify">                
-                    <li><span class="fa-li"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> Técnico superior en Educación Infantil o “Grado en Educación Infantil” (o titulaciones equivalentes). </li>
-                    <li><span class="fa-li"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> B2 Euskera o superior</li> 
+                    <li><span class="fa-li"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> {{ $t('trabajaMatTex4') }}</li>
+                    <li><span class="fa-li"><i class="fas fa-angle-right fa-2x" style="color:#643387"></i></span> {{ $t('trabajaMatTex5') }}</li> 
             </ul>
         </div>
     </div>
