@@ -1,4 +1,4 @@
-<template>
+<template> 
  <section class="container">
             <div class="navy-line"></div>
             <h1 class="h1">        
