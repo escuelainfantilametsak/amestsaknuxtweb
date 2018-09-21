@@ -22,7 +22,7 @@
                 <div class="card-footer">
                     <i class="fas fa-heart" style="color:red"></i>
                 </div>
-        </div>      
+        </div>       
 
 
   </div>
