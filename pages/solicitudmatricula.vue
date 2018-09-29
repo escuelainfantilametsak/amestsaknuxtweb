@@ -1,8 +1,8 @@
 <template>
 <div class="container">
-<div class="col-md-12">    
+<!-- <div class="col-md-12">    
             <img src="~/assets/workflow2.png" class="img-fluid animated fadeIn" alt="logo">         
-        </div>
+        </div> -->
 <div class="navy-line"></div>
             <h1 class="h1">        
                   {{ $t('titleSolicitud') }}       
@@ -52,18 +52,22 @@
     <li class="breadcrumb-item">{{ $t('solMatTex3') }}</li>
     <li class="breadcrumb-item active" aria-current="page">{{ $t('solMatTex4') }}</li>
   </ol>
-  <div class="card text-white bg-dark mx-auto" style="max-width: 18rem;">
+
   
-  <div class="card-body">
-    
-    <p>{{ $t('solMatTex5') }}</p>
-    <!-- <span class="badge badge-secondary">New</span> -->
-    <i class="fas fa-shopping-bag"></i> & <i class="fas fa-book"></i>
-  </div>
-  <div class="card-footer bg-white  border-verdeAmetsak"> <a href="Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('solMatTex6') }}  <i class="far fa-file-pdf fa-2x"></i></a></div>
-    <div class="card-footer bg-white border-verdeAmetsak"><nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('solMatTex7') }}    <i class="fas fa-clipboard-list fa-2x"></i></nuxt-link></div>
-    
-</div>
+
+
+
+
+
+
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item text-white bg-dark"> <p>Recibe tu pack de bienvenida!!</p> <i class="fas fa-shopping-bag"> </i> & <i class="fas fa-book"></i><li>
+  <li class="list-group-item"><nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('solMatTex7') }}    <i class="fas fa-clipboard-list fa-2x"></i></nuxt-link></li>
+  <li class="list-group-item"><a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('solMatTex6') }}<i class="far fa-file-pdf fa-2x"></i></a></li>
+ 
+</ul>
+ 
 </nav>
 </div>
 </template>
