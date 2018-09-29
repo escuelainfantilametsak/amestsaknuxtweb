@@ -5,7 +5,7 @@ export default {
     subContacto:'Matriculas abiertas 18/19',
     preguntanos:"Preguntanos!",
     titleEquipo:"Equipo",
-    subEquipo:"sub equipo",
+    subEquipo:"Ametsak Team",
     titleSolicitud:"Solicitud Matricula",
     subSolicitud:"Pasos",
     titleservicios:"Servicios",

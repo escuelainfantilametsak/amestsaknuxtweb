@@ -352,6 +352,7 @@ Main components
   float: left;
   padding: .8em 0;
   opacity: .7;
+  color:#974eca;
 }
 .cd-timeline-content::before {
   content: '';

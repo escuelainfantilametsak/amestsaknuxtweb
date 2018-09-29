@@ -62,7 +62,7 @@
 
 
 <ul class="list-group list-group-flush">
-  <li class="list-group-item text-white bg-dark"> <p>Recibe tu pack de bienvenida!!</p> <i class="fas fa-shopping-bag"> </i> & <i class="fas fa-book"></i><li>
+  <li class="list-group-item text-white bg-dark"> <p>Recibe tu pack de bienvenida!!</p> <i class="fas fa-shopping-bag"> </i> & <i class="fas fa-book"></i></li>
   <li class="list-group-item"><nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('solMatTex7') }}    <i class="fas fa-clipboard-list fa-2x"></i></nuxt-link></li>
   <li class="list-group-item"><a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('solMatTex6') }}<i class="far fa-file-pdf fa-2x"></i></a></li>
  

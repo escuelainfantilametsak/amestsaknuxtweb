@@ -25,6 +25,28 @@
           En nuestra escuela, mediante todos los servicios ofertados queremos lograr un servicio completo que cubra todas las necesidades de nuestros pequeños,
           y que abarque todos los aspectos importantes en la educacion de estas edades.        
         </p>
+
+        <p> Las experiencias educativas que  constituyen los ejes de nuestro proyecto educativo son los siguientes:</p>
+        <ul>
+          <li><span class="resaltar">Estimulación Temprana:</span><br>
+         Cuando un bebé  nace no dispone de conductas prefijadas en la corteza cerebral, sin embargo  dispone de una capacidad infinita para asimilar. Es necesario recibir la  estimulación adecuada para que las conexiones se ejerciten de forma activa. <br>
+            Por ello, en nuestra Guardería  aprovechamos plenamente todo el potencial del niño ofreciendo las condiciones  más óptimas y el material más adecuado.<strong></strong></li>
+          <li><span class="resaltar">Fomento de la creatividad:</span><br>
+          A través de  dramatizaciones, de actividades de expresión plástica, de actividades musicales  y corporales. </li>         
+          <li><span class="resaltar">Desarrollo del lenguaje:</span><br>
+          Prestamos especial atención a las inquietudes lectoras de los niñ@s, y esto nos ayuda a la vez a fomentar su habilidad para escuchar.<br>
+Para fomentar el gusto por la lectura trabajamos con tarjetas de imágenes, tarjetas de imágenes con palabras, pictogramas siendo nuestro material por excelencia los cuentos, ya que será a través de ellos y a través del juego como el niñ@ irá interiorizando el amor por los libros y la lectura.<br>
+Las experiencias en la guardería fomentarán su imaginación y creatividad. </li>
+          <li><span class="resaltar">Educación en Valores:</span><br>
+          Los primeros  años son esenciales para la construcción de la futura personalidad, por lo que  es especialmente importante favorecer que los niñ@s vayan descubriendo y  respetando el mundo que les rodea, estableciendo relaciones adecuadas con los  demás y aprendiendo a resolver los conflictos que puedan surgir. <br>
+          Por ello,  trabajamos día a día para potenciar en los niños actitudes positivas de  respeto, tolerancia, solidaridad, libertad y responsabilidad.</li>
+            
+        </ul>
+
+        <p>Eche un vistazo a nuestra guarderia: <nuxt-link class="linkmapacontacto" :to="localePath('instalaciones')"><i class="far fa-images fa-2x"></i></nuxt-link> </p>
+        <p>Siguientes pasos a realizar: <nuxt-link class="linkmapacontacto" :to="localePath('solicitudmatricula')"><i class="fas fa-question fa-2x"></i></nuxt-link> </p>
+
+        
         <!-- <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a> -->
       </div>
