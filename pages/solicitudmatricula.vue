@@ -53,20 +53,94 @@
     <li class="breadcrumb-item active" aria-current="page">{{ $t('solMatTex4') }}</li>
   </ol>
 
+
+ 
+ <div class="container">
+  <div class="row justify-content-center">
+  
+   
+
+     <div class="col-md-6">
+         <div class="card mb-4 bg-dark text-white">
+            <img class="card-img" src="~/assets/giftcomp.jpg" alt="Card image">
+            <div class="card-img-overlay">
+               <h5 class="card-title">Recibe tu pack de bienvenida!!</h5>
+               <p class="card-text"> <i class="fas fa-heart" style="color:red"></i></p>               
+            </div>
+         </div>
+      </div>
+    
+  </div>
+
+
+    
+</div>
+ 
   
 
+<div class="row">
+   
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+						<div class="our-services-wrapper mb-60">
+							<div class="services-inner">
+								<div class="our-services-img">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x"></i>                   
+                    <i class="fas fa-clipboard-list fa-stack-1x fa-inverse"></i>
+                  </span>
+							
+								</div>
+								<div class="our-services-text">
+									<h4>Normas</h4>
+									<nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">Info</nuxt-link>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+						<div class="our-services-wrapper mb-60">
+							<div class="services-inner">
+								<div class="our-services-img">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x"></i>                   
+                    <i class="far fa-file-pdf fa-stack-1x fa-inverse"></i>
+                  </span>
+							
+								</div>
+								<div class="our-services-text">
+									<h4>Calendario</h4>
+								<a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">Descargar</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+						<div class="our-services-wrapper mb-60">
+							<div class="services-inner">
+								<div class="our-services-img">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x"></i>                    
+                    <i class="fas fa-smile-beam fa-stack-1x fa-inverse"></i>
+                  </span>
+							
+								</div>
+								<div class="our-services-text">
+									<h4>Ventajas</h4>
+									<nuxt-link :to="localePath('convenios')" class="linkSolitudMatricula">Info</nuxt-link>
+								</div>
+							</div>
+						</div>
+					</div>
+
+    
+  </div>
 
 
 
-
-
-
-<ul class="list-group list-group-flush">
-  <li class="list-group-item text-white bg-dark"> <p>Recibe tu pack de bienvenida!!</p> <i class="fas fa-shopping-bag"> </i> & <i class="fas fa-book"></i></li>
-  <li class="list-group-item"><nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('solMatTex7') }}    <i class="fas fa-clipboard-list fa-2x"></i></nuxt-link></li>
-  <li class="list-group-item"><a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('solMatTex6') }}<i class="far fa-file-pdf fa-2x"></i></a></li>
- 
-</ul>
  
 </nav>
 </div>
@@ -87,6 +161,9 @@
 
 .breadcrumb {
        margin-bottom: 20px;
+       border-radius: 1.00rem;
+       border-style: solid;
+      border-color: #bbbec1;
 }
 
 .linkSolitudMatricula {
@@ -103,4 +180,8 @@
 .border-verdeAmetsak {
     border-color: #343a40!important;
 }
+
+
+
+
 </style>

@@ -64,7 +64,11 @@ export default {
           console.log(error)
           this.formError = error.message
         })
+    },
+    prueba(){
+      return this.$store.dispatch('fetchUsers');
     }
+
   }
 }
 </script>

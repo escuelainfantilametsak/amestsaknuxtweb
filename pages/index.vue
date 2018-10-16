@@ -30,7 +30,7 @@
         <ul>
           <li><span class="resaltar">Estimulación Temprana:</span><br>
          Cuando un bebé  nace no dispone de conductas prefijadas en la corteza cerebral, sin embargo  dispone de una capacidad infinita para asimilar. Es necesario recibir la  estimulación adecuada para que las conexiones se ejerciten de forma activa. <br>
-            Por ello, en nuestra Guardería  aprovechamos plenamente todo el potencial del niño ofreciendo las condiciones  más óptimas y el material más adecuado.<strong></strong></li>
+          </li>
           <li><span class="resaltar">Fomento de la creatividad:</span><br>
           A través de  dramatizaciones, de actividades de expresión plástica, de actividades musicales  y corporales. </li>         
           <li><span class="resaltar">Desarrollo del lenguaje:</span><br>
@@ -43,9 +43,50 @@ Las experiencias en la guardería fomentarán su imaginación y creatividad. </l
             
         </ul>
 
-        <p>Eche un vistazo a nuestra guarderia: <nuxt-link class="linkmapacontacto" :to="localePath('instalaciones')"><i class="far fa-images fa-2x"></i></nuxt-link> </p>
-        <p>Siguientes pasos a realizar: <nuxt-link class="linkmapacontacto" :to="localePath('solicitudmatricula')"><i class="fas fa-question fa-2x"></i></nuxt-link> </p>
 
+<div class="row">
+
+
+<!-- Instalaciones -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+						<div class="our-services-wrapper mb-60">
+							<div class="services-inner">
+								<div class="our-services-img">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x linkmapacontacto"></i>                   
+                    <i class="far fa-images fa-stack-1x fa-inverse"></i>
+                  </span>
+							
+								</div>
+								<div class="our-services-text">
+									<h4>Información guardería</h4>
+									<nuxt-link class="linkmapacontacto" :to="localePath('instalaciones')"><i class="far fa-images fa-2x"></i></nuxt-link> 
+								</div>
+							</div>
+						</div>
+				</div>
+
+<!-- Solicitud matricula -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+						<div class="our-services-wrapper mb-60">
+							<div class="services-inner">
+								<div class="our-services-img">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x linkmapacontacto"></i>                   
+                    <i class="fas fa-info-circle fa-stack-1x fa-inverse"></i>
+                  </span>
+							
+								</div>
+								<div class="our-services-text">
+									<h4>Solicitud Matricula</h4>
+									<nuxt-link class="linkmapacontacto" :to="localePath('solicitudmatricula')"><i class="fas fa-info-circle  fa-2x"></i></nuxt-link> 
+								</div>
+							</div>
+						  </div>
+				  </div>
+  </div>
+
+      
         
         <!-- <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a> -->

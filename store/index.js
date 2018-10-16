@@ -1,4 +1,5 @@
 import Vuex from 'vuex'
+import axios from 'axios';
 import { firebaseMutations, firebaseAction } from 'vuexfire'
 import firebase, {auth, GoogleProvider} from '@/services/fireinit.js'
 
@@ -6,7 +7,8 @@ const createStore = () => {
   return new Vuex.Store({
     state: {
       user: null,
-      account: null
+      account: null,
+      list: []
     },
     getters: {
       activeUser: (state, getters) => {
@@ -19,6 +21,9 @@ const createStore = () => {
       setUser (state, user) {
         state.user = user
         return this.dispatch('setAccountRef', `accounts/${state.user.uid}`)
+      },
+      set (state, todos) {
+        state.list = todos;        
       }
     },
     actions: {
@@ -58,6 +63,13 @@ const createStore = () => {
           image
         })
       },
+
+
+      async fetchUsers({ commit }) {
+        const { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+        commit('set', data);
+      },
+
 
       userLogout ({commit}) {
         auth.signOut().then(() => {
