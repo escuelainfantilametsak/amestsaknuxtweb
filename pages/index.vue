@@ -4,7 +4,7 @@
       <logo/>
       <div class="navy-line"></div>
       <h1 class="h1">        
-        Filosofía          
+         {{ $t('Filosofia') }}          
         </h1>
       <h2 class="subtitle">
         {{ $t('welcome') }}
@@ -25,21 +25,20 @@
           En nuestra escuela, mediante todos los servicios ofertados queremos lograr un servicio completo que cubra todas las necesidades de nuestros pequeños,
           y que abarque todos los aspectos importantes en la educacion de estas edades.        
         </p>
-
         <p> Las experiencias educativas que  constituyen los ejes de nuestro proyecto educativo son los siguientes:</p>
         <ul>
           <li><span class="resaltar">Estimulación Temprana:</span><br>
-         Cuando un bebé  nace no dispone de conductas prefijadas en la corteza cerebral, sin embargo  dispone de una capacidad infinita para asimilar. Es necesario recibir la  estimulación adecuada para que las conexiones se ejerciten de forma activa. <br>
+         <p>Cuando un bebé  nace no dispone de conductas prefijadas en la corteza cerebral, sin embargo  dispone de una capacidad infinita para asimilar. Es necesario recibir la  estimulación adecuada para que las conexiones se ejerciten de forma activa.</p>
           </li>
           <li><span class="resaltar">Fomento de la creatividad:</span><br>
-          A través de  dramatizaciones, de actividades de expresión plástica, de actividades musicales  y corporales. </li>         
+          <p>A través de  dramatizaciones, de actividades de expresión plástica, de actividades musicales  y corporales.</p> </li>         
           <li><span class="resaltar">Desarrollo del lenguaje:</span><br>
-          Prestamos especial atención a las inquietudes lectoras de los niñ@s, y esto nos ayuda a la vez a fomentar su habilidad para escuchar.<br>
-Para fomentar el gusto por la lectura trabajamos con tarjetas de imágenes, tarjetas de imágenes con palabras, pictogramas siendo nuestro material por excelencia los cuentos, ya que será a través de ellos y a través del juego como el niñ@ irá interiorizando el amor por los libros y la lectura.<br>
-Las experiencias en la guardería fomentarán su imaginación y creatividad. </li>
-          <li><span class="resaltar">Educación en Valores:</span><br>
-          Los primeros  años son esenciales para la construcción de la futura personalidad, por lo que  es especialmente importante favorecer que los niñ@s vayan descubriendo y  respetando el mundo que les rodea, estableciendo relaciones adecuadas con los  demás y aprendiendo a resolver los conflictos que puedan surgir. <br>
-          Por ello,  trabajamos día a día para potenciar en los niños actitudes positivas de  respeto, tolerancia, solidaridad, libertad y responsabilidad.</li>
+          <p>Prestamos especial atención a las inquietudes lectoras de los niñ@s, y esto nos ayuda a la vez a fomentar su habilidad para escuchar.
+Para fomentar el gusto por la lectura trabajamos con tarjetas de imágenes, tarjetas de imágenes con palabras, pictogramas siendo nuestro material por excelencia los cuentos, ya que será a través de ellos y a través del juego como el niñ@ irá interiorizando el amor por los libros y la lectura.
+Las experiencias en la guardería fomentarán su imaginación y creatividad.</p> </li>
+          <li><span class="resaltar">Educación en Valores:</span><br> 
+          <p>Los primeros  años son esenciales para la construcción de la futura personalidad, por lo que  es especialmente importante favorecer que los niñ@s vayan descubriendo y  respetando el mundo que les rodea, estableciendo relaciones adecuadas con los  demás y aprendiendo a resolver los conflictos que puedan surgir. <br>
+          Por ello,  trabajamos día a día para potenciar en los niños actitudes positivas de  respeto, tolerancia, solidaridad, libertad y responsabilidad.</p></li>
             
         </ul>
 
@@ -59,8 +58,8 @@ Las experiencias en la guardería fomentarán su imaginación y creatividad. </l
 							
 								</div>
 								<div class="our-services-text">
-									<h4>Información guardería</h4>
-									<nuxt-link class="linkmapacontacto" :to="localePath('instalaciones')"><i class="far fa-images fa-2x"></i></nuxt-link> 
+									<h4>{{ $t('titleInstalacion') }}</h4>
+									<nuxt-link class="linkSolitudMatricula" :to="localePath('instalaciones')">{{ $t('subInstalacion') }}</nuxt-link> 
 								</div>
 							</div>
 						</div>
@@ -78,8 +77,8 @@ Las experiencias en la guardería fomentarán su imaginación y creatividad. </l
 							
 								</div>
 								<div class="our-services-text">
-									<h4>Solicitud Matricula</h4>
-									<nuxt-link class="linkmapacontacto" :to="localePath('solicitudmatricula')"><i class="fas fa-info-circle  fa-2x"></i></nuxt-link> 
+									<h4> {{ $t('titleSolicitud') }}</h4>
+									<nuxt-link class="linkSolitudMatricula" :to="localePath('solicitudmatricula')">{{ $t('subInstalacion') }}</nuxt-link> 
 								</div>
 							</div>
 						  </div>

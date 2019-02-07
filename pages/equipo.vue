@@ -25,9 +25,9 @@
 			    </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
-            <h2>0-1 años</h2>
+            <h2>{{ $t('equipoAnyos01') }}</h2>
             <p>Actividades psicomotrices. control del equilibrio y la coordinacion, control postural y del movimiento</p>
-            <a href="#0" class="cd-read-more">Read more</a>
+            <!-- <a href="#0" class="cd-read-more"> + 5 años exp</a> -->
             <span class="cd-date">Irantzu Espina</span>
           </div> <!-- cd-timeline-content -->
       </div>
@@ -39,66 +39,70 @@
 			</div> <!-- cd-timeline-img -->
       <div data-aos="fade-in">
         <div class="cd-timeline-content">
-          <h2>0-1 años</h2>
+          <h2>{{ $t('equipoAnyos01') }}</h2>
           <p>Actividades psicomotrices. control del equilibrio y la coordinacion, control postural y del movimiento</p>
-          <a href="#0" class="cd-read-more">Read more</a>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
           <span class="cd-date">Cristina Yanguas</span>
         </div> <!-- cd-timeline-content -->
       </div>
 		</div> <!-- cd-timeline-block -->
 
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
+      <div data-aos="fade-in">
+        <div class="cd-timeline-img cd-picture">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+        </div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>1-2 años</h2>
-				<p>Participacion con los niños en juegos de asociación, como en los que debe clasificar figuras por su forma y hacer rompecabezas sencillos</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Leire Espina</span>
-			</div> <!-- cd-timeline-content -->
+        <div class="cd-timeline-content">
+          <h2>{{ $t('equipoAnyos12') }}</h2>
+          <p>Participacion con los niños en juegos de asociación, como en los que debe clasificar figuras por su forma y hacer rompecabezas sencillos</p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Leire Espina</span>
+        </div> <!-- cd-timeline-content -->
+      </div>
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
+	<!-- 	<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
 				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
+			</div>   
 
 			<div class="cd-timeline-content">
 				<h2>1-2 años</h2>
 				<p>En esta etapa, los niños pequeños mostrarán mayor independencia; comenzarán a tener conductas desafiantes; se reconocerán en las fotos o en el espejo e imitarán los comportamientos de los demás, especialmente de los adultos y niños mayores</p>
 				<a href="#0" class="cd-read-more">Read more</a>
 				<span class="cd-date">Nahikari</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+			</div> 
+		</div>  -->
 
-		<div class="cd-timeline-block">
+<!-- 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-location">
 				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
+			</div> 
 
 			<div class="cd-timeline-content animated bounce">
 				<h2>Title of section 5</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 				<a href="#0" class="cd-read-more">Read more</a>
 				<span class="cd-date">Feb 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+			</div> 
+		</div>  -->
 
-		<div class="cd-timeline-block">
+	<!-- 	<div class="cd-timeline-block">
       <div data-aos="fade-in">
         <div class="cd-timeline-img cd-movie">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
-        </div> <!-- cd-timeline-img -->
+        </div> 
 
         <div class="cd-timeline-content">
           <h2>Final Section</h2>
           <p>This is the content of the last section</p>
           <span class="cd-date">Feb 26</span>
-        </div> <!-- cd-timeline-content -->
+        </div> 
       </div>
-      </div> <!-- cd-timeline-block -->    
+      </div>  -->
+
+      
 	</section>
   
 </div>

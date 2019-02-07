@@ -18,7 +18,7 @@
       </h2>
      <div class="row justify-content-center">
           <div class="col-md-8">        
-            <form action="https://formspree.io/hola@escuelainfantilametsak.com"  method="post">
+            <form action="https://formfor.site/send/SheSfadJE7KsEOsPxlccjeoZR2lA7A"  method="post">
                     
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Nombre " required="">
@@ -35,17 +35,27 @@
                                 <div class="form-group">
                                     <textarea class="form-control" type="textarea" id="message" name="Mensaje" placeholder="Mensaje " maxlength="200" rows="7"></textarea>
                                 </div>
+                              
                                 <div class="form-group">
-                                    <input type="text" name="_gotcha" style="display:none" />                                
-                                </div>
+                                    <input name="sweetField"/>                              
+                                </div>                               
+      
 
-                                <div class="form-group">
-                                    <input type="hidden" name="_next" value="https://ametsakweb.firebaseapp.com/contacto/gracias" />                               
-                                </div>                                
+                                <input
+                                    type="hidden"
+                                    name="_success"
+                                    value="https://ametsakweb.firebaseapp.com/contacto/gracias"
+                                />  
+
                                 <button class="btn btn-primary pull-right button pageclip-form__submit" type="submit">
                                     <span>Enviar</span>
                                 </button>
             </form>
+        
+
+
+
+
       </div>
       <div class="col-md-4">
                 <div class="card card-pricing popular shadow text-center px-3 mb-4">

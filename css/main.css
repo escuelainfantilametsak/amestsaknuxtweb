@@ -176,7 +176,7 @@ color: #6a1b9a;
   margin-bottom: 60px;
 }
 .services-inner {
-  border: 2px solid #48c7ec;
+  border: 2px solid #7f6aa8;
   margin-left: 35px;
   transition: .3s;
 }
@@ -204,7 +204,7 @@ color: #6a1b9a;
   text-transform: uppercase;
 }
 .our-services-text h4::before {
-  background: #ec6d48 none repeat scroll 0 0;
+  background: #9cfc97 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 1px;
@@ -225,6 +225,18 @@ p {
   line-height: 26px;
   color: #666;
   margin-bottom: 15px;
+}
+
+.linkSolitudMatricula {
+  color: #6a1b9a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkSolitudMatricula:hover{
+  color: #00e676;
+  font-weight: bold;
+  text-decoration: none;
 }
   
 

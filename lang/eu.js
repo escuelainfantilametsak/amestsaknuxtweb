@@ -88,4 +88,6 @@ export default {
   serviciosTextMiercoles:"Asteazkena",
   serviciosTextJueves:"Osteguna",
   serviciosTextViernes:"Ostirala",
+  equipoAnyos01:"0-1 urte",
+  equipoAnyos12:"1-2 urte",
   }
