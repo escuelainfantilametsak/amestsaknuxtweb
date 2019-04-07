@@ -64,12 +64,15 @@
           </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <a href="#" class="d-block mb-4 h-100">
+          <a href="#" class="d-block mb-4 h-100 lightbox">
             <img class="img-fluid img-thumbnail" src="~/assets/site/guarde15.jpg" alt="">
           </a>
-        </div>      
+        </div>
+            
       </div>
 
     </div>
      </section>
 </template>
+
+

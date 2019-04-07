@@ -10,8 +10,8 @@
         {{ $t('welcome') }}
       </h2>
       <div class="links">
-        <p>La Escuela Infantil <span class="resaltar" >AMETSAK</span> es un centro educativo y asistencial para niños de 0 a 3 años con instalacioness autorizadas por el Gobierno Vasco.</p>
-        <p>El principal objetivo de las educadoras es el bienestar de los niños,por ello, haremos que los más pequeños se sientan seguros, queridos y aceptados dando mayor importancia al contacto afectivo para que desarrollen todo su potencial</p>
+        <p>La Escuela Infantil <span class="resaltar" >AMETSAK</span> {{ $t('texto1Index') }}</p>
+        <p>{{ $t('texto2Index') }}</p>
         <p>El centro se apoya en la metodología de <span class="resaltar">gleen Doman</span> y tambien ofrece servicios de estimulacion temprara a nivel motor sensorial cognitivo y musical</p>
         <ul class="fa-ul">
                 

@@ -57,7 +57,7 @@
                 <a href="tel:946086394"><i class="fas fa-phone"></i> 94 608 63 94</a>
               </li>
               <li>
-                <a href="#!"><i class="fab fa-facebook-f"></i> Ametsak Facebook</a>
+                <a href="https://www.facebook.com/escuela.ametsak"><i class="fab fa-facebook-f"></i> Ametsak Facebook</a>
               </li>             
             </ul>
 
@@ -65,10 +65,10 @@
       
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/escuela.ametsak"><i class="fab fa-facebook-f fa-2x"></i></a></li>
 						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-linkedin fa-2x"></i></a></li>
 						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram fa-2x"></i></a></li>						
-						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope fa-2x"></i></a></li>
+						<li class="list-inline-item"><nuxt-link :to="localePath('contacto')"><i class="fa fa-envelope fa-2x"></i></nuxt-link></li>
 					</ul>
 				</div>				
 			</div>

@@ -50,7 +50,7 @@
 		<div class="cd-timeline-block">
       <div data-aos="fade-in">
         <div class="cd-timeline-img cd-picture">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
+          <img src="~/assets/Leire.png" class="ImagenEquipo1" alt="Picture">
         </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
@@ -62,45 +62,37 @@
       </div>
 		</div> <!-- cd-timeline-block -->
 
-	<!-- 	<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
-			</div>   
-
-			<div class="cd-timeline-content">
-				<h2>1-2 años</h2>
-				<p>En esta etapa, los niños pequeños mostrarán mayor independencia; comenzarán a tener conductas desafiantes; se reconocerán en las fotos o en el espejo e imitarán los comportamientos de los demás, especialmente de los adultos y niños mayores</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Nahikari</span>
-			</div> 
-		</div>  -->
-
-<!-- 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
-			</div> 
-
-			<div class="cd-timeline-content animated bounce">
-				<h2>Title of section 5</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Feb 18</span>
-			</div> 
-		</div>  -->
-
-	<!-- 	<div class="cd-timeline-block">
+    	<div class="cd-timeline-block">
       <div data-aos="fade-in">
-        <div class="cd-timeline-img cd-movie">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
-        </div> 
+        <div class="cd-timeline-img cd-picture">
+          <img src="~/assets/maria.png" class="ImagenEquipo1" alt="Picture">
+        </div> <!-- cd-timeline-img -->
 
         <div class="cd-timeline-content">
-          <h2>Final Section</h2>
-          <p>This is the content of the last section</p>
-          <span class="cd-date">Feb 26</span>
-        </div> 
+          <h2>{{ $t('equipoAnyos12') }}</h2>
+          <p>Participacion con los niños en juegos de asociación, como en los que debe clasificar figuras por su forma y hacer rompecabezas sencillos</p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Ohiane</span>
+        </div> <!-- cd-timeline-content -->
       </div>
-      </div>  -->
+		</div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div data-aos="fade-in">
+        <div class="cd-timeline-img cd-picture">
+          <img src="~/assets/ohiane.png" class="ImagenEquipo1" alt="Picture">
+        </div> <!-- cd-timeline-img -->
+
+        <div class="cd-timeline-content">
+          <h2>{{ $t('equipoAnyos23') }}</h2>
+          <p>Ponemos especial énfasis en que el niño descubra el mundo a través de los sentidos: burbujas de jabón, juegos de agua, baúles de tesoros, cestos de frutos de otoño, murales de pintura de dedos, retales de tela que nos convierten en príncipes y princesas….Todos sirve para aprender</p>
+          <!-- <a href="#0" class="cd-read-more">Read more</a> -->
+          <span class="cd-date">Maria</span>
+        </div> <!-- cd-timeline-content -->
+      </div>
+		</div> <!-- cd-timeline-block -->
+
+
 
       
 	</section>
@@ -222,6 +214,34 @@ Main components
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
+  /* display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px; */
+  margin-left: 0px;
+  margin-top: -2px;
+  width: 100%;
+}
+
+.cd-timeline-img .ImagenEquipo1  {
+  /* display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px; */
+  margin-left: -10px;
+  margin-top: -9px;
+  width: 140%;
+}
+
+.cd-timeline-img2 img {
   /* display: block;
   width: 24px;
   height: 24px;

@@ -106,7 +106,7 @@
           <div class="card mb-4 bg-dark text-white">
               <img class="card-img" src="~/assets/giftcomp.jpg" alt="Card image">
               <div class="card-img-overlay">
-                <h5 class="card-title">Recibe tu pack de bienvenida!!</h5>
+                <h5 class="card-title">{{ $t('RecibeTupackBienvenida') }}</h5>
                 <p class="card-text"> <i class="fas fa-heart" style="color:red"></i></p>               
               </div>
           </div>
@@ -133,8 +133,8 @@
                 
                   </div>
                   <div class="our-services-text">
-                    <h4>Normas</h4>
-                    <nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">Info</nuxt-link>
+                    <h4>{{ $t('normasTitle') }}</h4>
+                    <nuxt-link :to="localePath('normas')" class="linkSolitudMatricula">{{ $t('infoText') }}</nuxt-link>
                   </div>
                 </div>
               </div>
@@ -152,8 +152,8 @@
                 
                   </div>
                   <div class="our-services-text">
-                    <h4>Calendario</h4>
-                  <a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">Descargar</a>
+                    <h4>{{ $t('calendarioText') }}</h4>
+                  <a href="/Calendario2018_19.pdf" class="linkSolitudMatricula">{{ $t('descargarText') }}</a>
                   </div>
                 </div>
               </div>
@@ -171,8 +171,8 @@
                 
                   </div>
                   <div class="our-services-text">
-                    <h4>Ventajas</h4>
-                    <nuxt-link :to="localePath('convenios')" class="linkSolitudMatricula">Info</nuxt-link>
+                    <h4>{{ $t('ventajasText') }}</h4>
+                    <nuxt-link :to="localePath('convenios')" class="linkSolitudMatricula">{{ $t('infoText') }}</nuxt-link>
                   </div>
                 </div>
               </div>
@@ -197,8 +197,9 @@
 }
 
 .breadcrumb-item.active {
-    color:#974eca;
+    color:#6a1b9a;
     font-weight: bold;
+    font-size: 17px;
 }
 .breadcrumb-item {
     color: #6c757d;
@@ -208,7 +209,8 @@
        margin-bottom: 20px;
        border-radius: 1.00rem;
        border-style: solid;
-      border-color: #bbbec1;
+      border-color: #9cfc97;
+          background-color: #9cfc97;
 }
 
 
